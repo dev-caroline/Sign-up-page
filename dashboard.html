@@ -14,7 +14,7 @@
 </head>
 
 <body style="background-color: #02D1AC;">
-    <div class="box mx-auto col-lg-5 col-8 mt-5 p-2 border border-4 rounded-5 shadow ">
+    <div class="box mx-auto col-lg-5 col-11 mt-5 p-2 border border-4 rounded-5 shadow ">
         <h1 class="text-center fw-bold">Welcome User!</h1>
         <p class="fs-3 fw-bold fst-italic">Here is your information :</p>
         <div class="info fs-4 fw-bold px-5 text-break" id="show"></div>
@@ -52,7 +52,6 @@
         function logOut() {
             localStorage.removeItem('signin');
             alert('Logged out successfully!');
-            // toast('Logged out successfully!','red',2000)
             window.location.href = "signin.html"
         }
     </script>
